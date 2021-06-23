@@ -1,0 +1,19 @@
+body{
+  overflow-x: hidden;
+}
+
+.item { 
+  	vertical-align: middle;
+  	line-height: 10rem;
+}
+
+.borderActive{
+  outline-style: solid;
+  outline-color:  black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

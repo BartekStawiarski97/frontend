@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Smoelentrainer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>	
+	<h1 class="text-center mt-5 mb-5">Game settings</h1>
+	<form id="formSettings">
+	  	<div class="mx-auto align-items-center">
+	    	<div class="col-6 mx-auto">
+	    	  <div class="row d-flex justify-content-between">
+	    	   <div class="col-3">
+	      	     <label for="people">Choose amount of players:</label>
+	      	    </div>
+	      	<div class="col-3">
+	      		<select name="people" class="form-control" style="width: 80px"; id="inlineFormCustomSelect">
+	      			<option selected value="11">11</option>
+	      			<option value="10">10</option>
+	      			<option value="9">9</option>
+	      			<option value="8">8</option>
+	      			<option value="7">7</option>
+	      			<option value="6">6</option>
+	      			<option value="5">5</option>	       		
+	      		</select>
+	      	</div>
+	      	</div>
+	      </div>	    	
+	    	<div class="col-6 mx-auto">
+	    	 <div class="row d-flex justify-content-between">
+	    	  <div class="col-3 mt-2">
+	      			<label for="time">Time in seconds:</label>
+	      		</div>
+	      	   <div class="col-3 mt-2">
+	        		<input type="number" class="form-control" style="width: 80px"; id="tentacles" name="time" value="120"
+       					min="30" max="180">
+	      		</div>
+	    	</div>
+	    </div>	    	
+	      <button id="save" type="submit" class="mt-5 btn btn-danger d-block mx-auto btn-lg">Save settings</button>
+	  	</div>
+	</form>
+<script type="text/javascript" src="settings.js"></script>
+</body>
+</html>
